@@ -11,7 +11,7 @@ export default function Player() {
 
   return (
     <section id="player">
-      <h2>
+      <h2 name="contact" netlify>
         Welcome {enteredPlayerName ? enteredPlayerName : "unknown entity"}
       </h2>
       {/* <h2>Welcome {enteredPlayerName ??  "unknown entity"}</h2> */}
